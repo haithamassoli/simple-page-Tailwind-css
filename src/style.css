@@ -1,3 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.show-links:hover .mega-menu {
+  display: flex;
+}
+.show-links:hover img {
+  display: block;
+}

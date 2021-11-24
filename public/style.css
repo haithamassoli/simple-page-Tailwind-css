@@ -32245,6 +32245,14 @@ video {
   content: none;
 }
 
+.show-links:hover .mega-menu {
+  display: flex;
+}
+
+.show-links:hover img {
+  display: block;
+}
+
 @media (min-width: 640px) {
   .sm\:container {
     width: 100%;
